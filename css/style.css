@@ -17,8 +17,7 @@ body {
 	max-width: 1440px;
 }
 
-h2, 
-h3 {
+h2, h3 {
 	font-family: 'Archivo', sans-serif;
 	font-style: normal;
 }
@@ -123,9 +122,9 @@ p {
 	background: linear-gradient(to right, var(--main-color), var(--second-color));
 }
 
-.whiteContentSection h2,
-.whiteContentSection h3,
-.whiteContentSection p {
+.whiteContentSection-h2,
+.whiteContentSection-h3,
+.whiteContentSection-p {
 	color:  white;
 }
 
@@ -145,7 +144,7 @@ p {
 	background-color: white;
 
 	border-style: solid;
-	border-width: 2px;
+	border-width: 2;
 	border-radius: 5px;
 
 	box-sizing: border-box;
@@ -186,3 +185,4 @@ p {
 	font-weight: 800;
 	border-width: 3px;
 }
+
